@@ -11,3 +11,28 @@ header {
     color: gray;
 }
 
+.white {
+    color: white;
+    background-color: #20A9E5;
+}
+
+.azzurro {
+    background-color: #B1E5F2;
+}
+
+
+h2 {
+    background-image: url('img/monitor.jpg');
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 400px;
+}
+
+.white1 {
+    background-image: url('img/graph.jpg');
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    width: 250x;
+    height: 400px;
+}
