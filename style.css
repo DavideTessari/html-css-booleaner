@@ -3,7 +3,11 @@ header {
     background-color: #4EA0FF;
 }
 
-body {
-    
+.giallo {
+    background-color: yellow;
+}
+
+.grigio {
+    color: gray;
 }
 
