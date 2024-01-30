@@ -1,6 +1,11 @@
 header {
     background-image: url(img/pattern.png);
     background-color: #4EA0FF;
+    padding: 60px;
+}
+
+.logo{
+    height: 60px;
 }
 
 .giallo {
@@ -19,7 +24,6 @@ header {
 .azzurro {
     background-color: #B1E5F2;
 }
-
 
 h2 {
     background-image: url('img/monitor.jpg');
