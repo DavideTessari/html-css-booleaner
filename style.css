@@ -1,42 +1,82 @@
-header {
-    background-image: url(img/pattern.png);
-    background-color: #4EA0FF;
-    padding: 60px;
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.logo{
+header {
+    background-color: #4da0fe;
+    background-image: url('img/pattern.png');
+    background-size: 360px;
+    padding-top: 60px;
+}
+
+.logo {
     height: 60px;
 }
 
-.giallo {
-    background-color: yellow;
+h1 {
+    font-size: 38px;
 }
 
-.grigio {
-    color: gray;
+h3 {
+    color: #989898;
+}
+/* -------------
+    Author
+----------------*/
+.author {
+    color: #808080;
 }
 
-.white {
-    color: white;
-    background-color: #20A9E5;
+.author-credit {
+    font-size: 18px;
 }
 
-.azzurro {
-    background-color: #B1E5F2;
+.author-link {
+    color: #4da0fe;
+    text-decoration: none;
 }
 
-h2 {
+.article-photos {
+    margin-top: 20px;
+}
+
+.photo-caption {
+    font-size: 14px;
+}
+/* -------------
+    Table
+---------------*/
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead {
+    background-color: #1faae5;
+    color: #ffffff;
+}
+
+.table-row {
+    background-color: #b0e4f2;
+}
+
+.cell-bigger {
+    width: 50%;
+}
+
+.box {
+    background-size: cover;
+    width: 312px;
+    height: 208px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+#monitor {
     background-image: url('img/monitor.jpg');
-    color: #FFFFFF;
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 400px;
 }
 
-.white1 {
+#graph {
     background-image: url('img/graph.jpg');
-    color: #FFFFFF;
-    background-repeat: no-repeat;
-    width: 250x;
-    height: 400px;
 }
